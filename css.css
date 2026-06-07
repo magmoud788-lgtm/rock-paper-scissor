@@ -1,0 +1,62 @@
+.mother {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+#rock {
+    padding: 30px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    font-size: 20px;
+    color: navajowhite;
+}
+
+#paper {
+        padding: 30px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    font-size: 20px;
+    color: navajowhite;
+}
+
+#scissor {
+        padding: 30px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    font-size: 20px;
+    color: navajowhite;
+}
+
+
+#display-results {
+    background-color: rgb(73, 92, 107);
+    color: navajowhite;
+    width: fit-content;
+    border: 5px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#running-score {
+    width: fit-content;
+    background-color: rgb(73, 92, 107);
+    border: 5px solid;
+    border-radius: 10px;
+    color: navajowhite;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+#restart {
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px solid navajowhite;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
